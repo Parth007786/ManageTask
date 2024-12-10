@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://taskmerge01.onrender.com",
+        target: "https://localhost:6565",
         changeOrigin: true,
         secure: false
       }
