@@ -3,7 +3,7 @@ import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 // Set base URL for axios
-axios.defaults.baseURL = "https://managetask55.onrender.com"; // Update to your backend API
+axios.defaults.baseURL = "http://localhost:6565/api"; // Update to your backend API
 
 // Register user
 export const registerUser = createAsyncThunk(
