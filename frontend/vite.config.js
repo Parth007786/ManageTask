@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://localhost:6565",
+        target: "https://managetask55.onrender.com/",
         changeOrigin: true,
         secure: false
       }
