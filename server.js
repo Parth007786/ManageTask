@@ -10,7 +10,9 @@ dotenv.config();
 const app = express();
 connectDB();
 const PORT = process.env.PORT || 6565;
-app.use(cors());
+app.use(
+  cors({ origin: "https://managetask55.onrender.com/", credentials: true })
+);
 
 // Middleware
 app.use(express.json());
